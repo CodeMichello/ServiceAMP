@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero {
+    background-image: linear-gradient(to right bottom,  
+    hsla(240, 66%, 37%, 0.6),
+    hsla(240, 66%, 37%, 0.6)), 
+    url(/Images/meet2.jpg);
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dc2ade !important;
+}
+
+.hero-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+}
+
+.hero-txt h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero-btn button {
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 170px;
+    border-radius: 60px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#cnt {
+    background-color: #6200ff;
+}
+
+#more {
+    background-color: #ff11df;
+}
+
+#services {
+    height: 60vh;
+}
+
+.services-title {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
+
+.services-title h2 {
+    font-weight: 700;
+    position: relative;
+}
+
+.services-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-details {
+    text-align: center;
+    padding-top: 80px;
+    margin-right: 80px;
+
+}
+
+.services-details h5 {
+    font-weight: 600;
+}
+
+.fas {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #21209c;
+}
+
+#video {
+    height: 30vh;
+    background-image: linear-gradient(to right bottom,  
+    hsla(240, 66%, 37%, 0.6),
+    hsla(240, 66%, 37%, 0.6)), 
+    url(/Images/meet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#video h4 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#play-btn {
+    color: #fff;
+    font-size: 40px;
+}
+
+#target {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target-details {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.target-details h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.target-details p{
+    color: #21209c;
+}
+
+#connect {
+    background-color: rgb(241, 241, 230);
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+#connect h4 {
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+#footer {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #21209c;
+    color: #fff;
+    padding: 50px;
+}
+
+
+@media only screen and (max-width: 823px) {
+
+    .hero-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-txt h2 {
+        font-size: 37px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+
+    #hero {
+        height: 90vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-txt {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+
+    }
+
+
+    
+#services {
+    height: 120vh;
+}
+
+
+.services-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.services-details {
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+
+#video h4 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#target {
+    height: 80vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.target-details {
+    padding-left: 100px;
+}
+
+#connect {
+    height: 65vh;
+    flex-direction: column;
+}
+
+.connect-img {
+    width: 350px;
+}
+
+#connect h4 {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#footer {
+    height: 22vh;
+   font-size: 13px; 
+}
+
+}       
+
+@media only screen and (max-width: 768px) {
+
+    .hero-btn{
+        display: flex;
+    }
+
+    #services {
+        height: 85vh;
+    }
+
+    #connect {
+        height: 55vh;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    #services {
+        height: 140vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #services {
+        height: 140vh;
+    }
+}
